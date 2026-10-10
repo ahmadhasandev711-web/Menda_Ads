@@ -1,0 +1,574 @@
+# Arabic translation for Menda Ads Manager
+# Copyright (C) 2025 Masa Tech
+# This file is distributed under the same license as the Menda Ads Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Menda Ads Manager 1.0.0\n"
+"POT-Creation-Date: 2025-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-01-01 00:00:00+00:00\n"
+"Last-Translator: Masa Tech <info@masatech.io>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menda-ads\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+msgid "Ads"
+msgstr "الإعلانات"
+
+msgid "Ad"
+msgstr "إعلان"
+
+msgid "Add New Ad"
+msgstr "إضافة إعلان جديد"
+
+msgid "Edit Ad"
+msgstr "تعديل الإعلان"
+
+msgid "Search Ads"
+msgstr "بحث في الإعلانات"
+
+msgid "No ads found."
+msgstr "لا توجد إعلانات."
+
+msgid "Sponsored Articles"
+msgstr "المقالات المدفوعة"
+
+msgid "Sponsored Article"
+msgstr "مقال مدفوع"
+
+msgid "Add Sponsored Article"
+msgstr "إضافة مقال مدفوع"
+
+msgid "Edit Sponsored Article"
+msgstr "تعديل مقال مدفوع"
+
+msgid "Placements"
+msgstr "مواضع النشر"
+
+msgid "Placement"
+msgstr "موضع النشر"
+
+msgid "Add Placement"
+msgstr "إضافة موضع"
+
+msgid "Ad Settings"
+msgstr "إعدادات الإعلان"
+
+msgid "Ad Type"
+msgstr "نوع الإعلان"
+
+msgid "Banner"
+msgstr "بانر"
+
+msgid "Interstitial (Between Pages)"
+msgstr "إعلان بيني (بين الصفحات)"
+
+msgid "Sticky Video"
+msgstr "فيديو ثابت"
+
+msgid "Website Skin / Takeover"
+msgstr "سكين الموقع / تغطية كاملة"
+
+msgid "Destination URL"
+msgstr "رابط الوجهة"
+
+msgid "Ad Image"
+msgstr "صورة الإعلان"
+
+msgid "Upload / Select Image"
+msgstr "رفع / اختيار صورة"
+
+msgid "Video URL (MP4 or YouTube embed)"
+msgstr "رابط الفيديو (MP4 أو YouTube)"
+
+msgid "Custom HTML / Embed Code"
+msgstr "كود HTML مخصص"
+
+msgid "Optional. Overrides the image if set."
+msgstr "اختياري. يستبدل الصورة إذا تم تعيينه."
+
+msgid "Schedule"
+msgstr "الجدول الزمني"
+
+msgid "Start:"
+msgstr "البداية:"
+
+msgid "End:"
+msgstr "النهاية:"
+
+msgid "Leave blank to run indefinitely."
+msgstr "اتركه فارغاً للتشغيل بلا توقف."
+
+msgid "Devices"
+msgstr "الأجهزة"
+
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+msgid "Mobile"
+msgstr "الجوال"
+
+msgid "Sponsor Info"
+msgstr "معلومات الراعي"
+
+msgid "Sponsor Name"
+msgstr "اسم الراعي"
+
+msgid "Sponsor URL"
+msgstr "رابط الراعي"
+
+msgid "Sponsor Logo"
+msgstr "شعار الراعي"
+
+msgid "Upload Logo"
+msgstr "رفع الشعار"
+
+msgid "Sponsored"
+msgstr "محتوى مدفوع"
+
+msgid "Advertisement"
+msgstr "إعلان"
+
+msgid "Skip in"
+msgstr "تخطي بعد"
+
+msgid "Skip Ad ✕"
+msgstr "تخطي الإعلان ✕"
+
+msgid "Video Advertisement"
+msgstr "إعلان فيديو"
+
+msgid "Close video ad"
+msgstr "إغلاق إعلان الفيديو"
+
+msgid "Learn More"
+msgstr "اعرف المزيد"
+
+msgid "[%s] Weekly Ads Report"
+msgstr "[%s] التقرير الأسبوعي للإعلانات"
+
+msgid "Weekly Ad Performance Report"
+msgstr "تقرير أداء الإعلانات الأسبوعي"
+
+msgid "Views"
+msgstr "المشاهدات"
+
+msgid "Clicks"
+msgstr "النقرات"
+
+msgid "CTR"
+msgstr "نسبة النقر"
+
+msgid "Menda Ads"
+msgstr "Menda Ads"
+
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+msgid "All Ads"
+msgstr "كل الإعلانات"
+
+msgid "Analytics"
+msgstr "التحليلات"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Menda Ads Manager"
+msgstr "مدير إعلانات ميندا"
+
+msgid "Total Views (30d)"
+msgstr "إجمالي المشاهدات (30 يوم)"
+
+msgid "Total Clicks (30d)"
+msgstr "إجمالي النقرات (30 يوم)"
+
+msgid "Average CTR"
+msgstr "متوسط نسبة النقر"
+
+msgid "Active Ads"
+msgstr "الإعلانات النشطة"
+
+msgid "Interstitial Ads"
+msgstr "الإعلانات البينية"
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "Configure"
+msgstr "إعداد"
+
+msgid "Website Skin"
+msgstr "سكين الموقع"
+
+msgid "Top Performing Ads (Last 30 Days)"
+msgstr "أفضل الإعلانات أداءً (آخر 30 يوم)"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Actions"
+msgstr "الإجراءات"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Details"
+msgstr "التفاصيل"
+
+msgid "No ad data yet. Create your first ad to get started!"
+msgstr "لا توجد بيانات إعلانات بعد. أنشئ أول إعلان للبدء!"
+
+msgid "+ Add New Ad"
+msgstr "+ إضافة إعلان جديد"
+
+msgid "+ New Ad"
+msgstr "+ إعلان جديد"
+
+msgid "+ Sponsored Article"
+msgstr "+ مقال مدفوع"
+
+msgid "Full Analytics"
+msgstr "التحليلات الكاملة"
+
+msgid "Ad Analytics"
+msgstr "تحليلات الإعلانات"
+
+msgid "Period:"
+msgstr "الفترة:"
+
+msgid "Last %d days"
+msgstr "آخر %d يوم"
+
+msgid "No analytics data for the selected period."
+msgstr "لا توجد بيانات للفترة المحددة."
+
+msgid "Totals"
+msgstr "الإجماليات"
+
+msgid "Menda Ads Settings"
+msgstr "إعدادات Menda Ads"
+
+msgid "Enable"
+msgstr "تفعيل"
+
+msgid "Show interstitial ads between pages"
+msgstr "عرض الإعلانات البينية بين الصفحات"
+
+msgid "Skip Delay (seconds)"
+msgstr "وقت الانتظار قبل التخطي (ثانية)"
+
+msgid "Frequency"
+msgstr "التكرار"
+
+msgid "Once per session"
+msgstr "مرة واحدة لكل جلسة"
+
+msgid "Once per day"
+msgstr "مرة واحدة يومياً"
+
+msgid "Every page load"
+msgstr "في كل تحميل صفحة"
+
+msgid "Show sticky video ad on all pages"
+msgstr "عرض إعلان الفيديو الثابت على جميع الصفحات"
+
+msgid "Position"
+msgstr "الموضع"
+
+msgid "Bottom Right"
+msgstr "أسفل اليمين"
+
+msgid "Bottom Left"
+msgstr "أسفل اليسار"
+
+msgid "Top Right"
+msgstr "أعلى اليمين"
+
+msgid "Top Left"
+msgstr "أعلى اليسار"
+
+msgid "Activate website skin"
+msgstr "تفعيل سكين الموقع"
+
+msgid "Or create an Ad of type \"Skin\" with a schedule for automatic activation."
+msgstr "أو أنشئ إعلاناً من نوع \"سكين\" مع جدول زمني للتفعيل التلقائي."
+
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+msgid "Upload Image"
+msgstr "رفع الصورة"
+
+msgid "Click Destination URL"
+msgstr "رابط النقر"
+
+msgid "Content Area Width (px)"
+msgstr "عرض منطقة المحتوى (بكسل)"
+
+msgid "Weekly Reports"
+msgstr "التقارير الأسبوعية"
+
+msgid "Send weekly performance report every Monday"
+msgstr "إرسال تقرير أداء أسبوعي كل يوم الاثنين"
+
+msgid "Report Email"
+msgstr "البريد الإلكتروني للتقرير"
+
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+msgid "Select Image"
+msgstr "اختيار صورة"
+
+msgid "Use this image"
+msgstr "استخدام هذه الصورة"
+
+msgid "Display a Menda Ads banner in any widget area."
+msgstr "عرض بانر Menda Ads في أي منطقة ودجت."
+
+msgid "Menda Ad Banner"
+msgstr "بانر Menda Ads"
+
+msgid "Placement slug:"
+msgstr "رمز الموضع:"
+
+msgid "Or specific Ad ID:"
+msgstr "أو معرّف إعلان محدد:"
+
+msgid "No data available."
+msgstr "لا توجد بيانات."
+
+msgid "Complete ad management for WordPress: banners, interstitial, sticky video, website skin, sponsored articles, and analytics."
+msgstr "إدارة إعلانات متكاملة لووردبريس: بانرات، إعلانات بينية، فيديو ثابت، سكين الموقع، مقالات مدفوعة، وتحليلات."
+
+msgid "Who can manage ads"
+msgstr "من يمكنه إدارة الإعلانات"
+
+msgid "Access level"
+msgstr "مستوى الصلاحية"
+
+msgid "Administrators only"
+msgstr "المديرون فقط"
+
+msgid "Administrators and Editors"
+msgstr "المديرون والمحررون"
+
+msgid "Administrators, Editors, and Authors"
+msgstr "المديرون والمحررون والكتّاب"
+
+msgid "Administrators always have full access. Editors and Authors keep writing normal news posts either way. Only raise this if the ads/commercial team should use Menda Ads without a full Administrator account. Authors can paste ad HTML — keep this on Administrators unless that team is trusted."
+msgstr "المدير يملك صلاحية كاملة دائماً. المحرر والكاتب يكملون كتابة الأخبار بشكل طبيعي في كل الأحوال. ارفع هذا الخيار فقط إذا كان فريق الإعلانات يحتاج دخول Menda Ads من دون حساب مدير كامل. الكتّاب يمكنهم لصق كود إعلان — اتركه على المديرون فقط إلا إذا كان هذا الفريق موثوقاً."
+
+msgid "Currency"
+msgstr "العملة"
+
+msgid "Default currency"
+msgstr "العملة الافتراضية"
+
+msgid "Used in analytics and new ads. Each ad can still be billed in a different currency (USD, SAR, EGP, AED, …). Totals are not mixed across currencies."
+msgstr "تُستخدم في التحليلات والإعلانات الجديدة. كل إعلان يمكن فوترته بعملة مختلفة (دولار، ريال، جنيه، درهم…). الإجماليات لا تُخلط بين العملات."
+
+msgid "Languages"
+msgstr "اللغات"
+
+msgid "All languages"
+msgstr "كل اللغات"
+
+msgid "On a bilingual site (Arabic + English) keep “All languages” for one creative on both, or tick only ar / only en for separate creatives. Works with WPML, Polylang, and TranslatePress."
+msgstr "في موقع ثنائي اللغة (عربي + إنجليزي) اترك «كل اللغات» لإبداع واحد على الوجهين، أو علّم ar فقط أو en فقط لإبداعين منفصلين. يعمل مع WPML وPolylang وTranslatePress."
+
+msgid "Pricing rate"
+msgstr "سعر التسعير"
+
+msgid "Site default (%s)"
+msgstr "افتراضي الموقع (%s)"
+
+msgid "Flat amount, CPC per click, or CPM per 1000 views. Use USD, SAR, EGP, AED, or any listed currency — do not assume one currency for the whole site."
+msgstr "مبلغ ثابت، أو تكلفة النقرة، أو تكلفة الألف ظهور. استخدم دولار أو ريال أو جنيه أو درهم أو أي عملة مدرجة — لا تفترض عملة واحدة لكل الموقع."
+
+msgid "US Dollar"
+msgstr "دولار أمريكي"
+
+msgid "Euro"
+msgstr "يورو"
+
+msgid "British Pound"
+msgstr "جنيه إسترليني"
+
+msgid "Egyptian Pound"
+msgstr "جنيه مصري"
+
+msgid "Saudi Riyal"
+msgstr "ريال سعودي"
+
+msgid "UAE Dirham"
+msgstr "درهم إماراتي"
+
+msgid "Qatari Riyal"
+msgstr "ريال قطري"
+
+msgid "Kuwaiti Dinar"
+msgstr "دينار كويتي"
+
+msgid "Bahraini Dinar"
+msgstr "دينار بحريني"
+
+msgid "Omani Rial"
+msgstr "ريال عماني"
+
+msgid "Jordanian Dinar"
+msgstr "دينار أردني"
+
+msgid "Moroccan Dirham"
+msgstr "درهم مغربي"
+
+msgid "Flat (%s)"
+msgstr "ثابت (%s)"
+
+msgid "CPC (%s)"
+msgstr "تكلفة نقرة (%s)"
+
+msgid "CPM (%s)"
+msgstr "تكلفة ألف ظهور (%s)"
+
+msgid "Wallpaper (1920px+)"
+msgstr "خلفية عريضة (1920px+)"
+
+msgid "Wide designed background, centered. Do not upload a tiled strip — use cover fit."
+msgstr "خلفية مصمَّمة عريضة، تتمركز في الصفحة. لا ترفع شريحة للتكرار — استخدم تغطية Cover."
+
+msgid "Left panel"
+msgstr "اللوحة اليسرى"
+
+msgid "Left click URL"
+msgstr "رابط النقر لليسار"
+
+msgid "Same as destination URL"
+msgstr "نفس رابط الوجهة"
+
+msgid "Right panel"
+msgstr "اللوحة اليمنى"
+
+msgid "Right click URL"
+msgstr "رابط النقر لليمين"
+
+msgid "Top billboard (970×250)"
+msgstr "بيلبورد علوي (970×250)"
+
+msgid "Billboard click URL"
+msgstr "رابط نقر البيلبورد"
+
+msgid "Mobile fallback"
+msgstr "بديل الموبايل"
+
+msgid "Hide takeover on mobile"
+msgstr "إخفاء التيك أوفر على الموبايل"
+
+msgid "Sticky 320×100 footer"
+msgstr "شريط ثابت 320×100 أسفل الشاشة"
+
+msgid "Top 320×100 banner"
+msgstr "بانر 320×100 أعلى الشاشة"
+
+msgid "Mobile click URL"
+msgstr "رابط النقر للموبايل"
+
+msgid "Takeover look"
+msgstr "شكل التيك أوفر"
+
+msgid "Page color"
+msgstr "لون الصفحة"
+
+msgid "Wallpaper fit"
+msgstr "ملاءمة الخلفية"
+
+msgid "Cover (recommended)"
+msgstr "تغطية (موصى به)"
+
+msgid "Contain"
+msgstr "احتواء"
+
+msgid "100% width"
+msgstr "عرض 100%"
+
+msgid "Content width (px)"
+msgstr "عرض المحتوى (بكسل)"
+
+msgid "Min viewport (px)"
+msgstr "أقل عرض شاشة (بكسل)"
+
+msgid "Z-index"
+msgstr "ترتيب الطبقة (z-index)"
+
+msgid "Leave width/viewport empty to use the site default. Raise z-index if a sticky header covers the side panels."
+msgstr "اترك العرض/الشاشة فارغين لاستخدام افتراضي الموقع. ارفع z-index إذا كان الهيدر الثابت يغطي الجوانب."
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Overlay — site stays full width, ads on the edges"
+msgstr "تراكب — الموقع بعرضه الكامل، والإعلان على الحواف"
+
+msgid "Boxed — shrink page to a news column (not for full-width shops)"
+msgstr "عمود — يضيّق الصفحة لعمود خبري (مش للمتاجر العريضة)"
+
+msgid "Side / page color"
+msgstr "لون الجوانب / الصفحة"
+
+msgid "Edge width (px)"
+msgstr "عرض الحافة (بكسل)"
+
+msgid "Overlay does not squeeze the site. Boxed is for news sites that already have a centered column. Content width applies to Boxed only. Raise z-index if a header covers the side ads."
+msgstr "التراكب لا يضغط الموقع. العمود للمواقع الإخبارية اللي عندها عمود متوسط أصلًا. عرض المحتوى للوضع العمودي فقط. ارفع z-index لو الهيدر غطى إعلان الجوانب."
+
+msgid "Takeover frequency"
+msgstr "تكرار التيك أوفر"
+
+msgid "Applies to the whole package (wallpaper, sides, billboard, mobile). Preview on site ignores this."
+msgstr "ينطبق على الباقة كلها (الخلفية، الجوانب، البيلبورد، الموبايل). المعاينة على الموقع تتجاهل هذا."
+
+msgid "Preview Ad"
+msgstr "معاينة الإعلان"
+
+msgid "Preview takeover on site"
+msgstr "معاينة التيك أوفر على الموقع"
+
+msgid "Save first to preview on site"
+msgstr "احفظ أولاً للمعاينة على الموقع"
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid "Create a unit of type Website Skin / Takeover for the campaign (wallpaper, left/right, billboard, mobile). These options are site defaults only."
+msgstr "أنشئ إعلاناً من نوع سكين / تيك أوفر للحملة (خلفية، يمين وشمال، بيلبورد، موبايل). هذه الخيارات افتراضيات الموقع فقط."
+
+msgid "Allow takeover ads on this site"
+msgstr "السماح بإعلانات التيك أوفر على هذا الموقع"
+
+msgid "Default content width (px)"
+msgstr "عرض المحتوى الافتراضي (بكسل)"
+
+msgid "Used when a takeover ad does not set its own content width. Typical news column: 1000–1200."
+msgstr "يُستخدم إذا لم يحدد إعلان التيك أوفر عرضاً خاصاً. عمود الخبر عادة 1000–1200."
+
+msgid "Add a mobile fallback image for the takeover package."
+msgstr "أضف صورة بديلة للموبايل ضمن باقة التيك أوفر."
+
+msgid "Article column"
+msgstr "عمود المقال"
+
+msgid "Upload / Select Image"
+msgstr "رفع / اختيار صورة"

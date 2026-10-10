@@ -1,0 +1,24 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="0">menda_ad</custom-type>
+		<custom-type translate="1">menda_sponsored</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="0">menda_ad_placement</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="copy">_menda_ad_type</custom-field>
+		<custom-field action="copy">_menda_ad_image_id</custom-field>
+		<custom-field action="translate">_menda_ad_link</custom-field>
+		<custom-field action="copy">_menda_ad_languages</custom-field>
+		<custom-field action="copy">_menda_ad_currency</custom-field>
+		<custom-field action="copy">_menda_ad_pricing_model</custom-field>
+		<custom-field action="copy">_menda_ad_pricing_rate</custom-field>
+		<custom-field action="translate">_menda_sponsor_name</custom-field>
+		<custom-field action="translate">_menda_sponsor_link</custom-field>
+		<custom-field action="copy">_menda_sponsor_logo_id</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="menda_ads_adblock_fallback" />
+	</admin-texts>
+</wpml-config>

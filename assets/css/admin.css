@@ -1,0 +1,787 @@
+/* Menda Ads Manager — Admin Styles */
+
+.menda-admin-wrap {
+	max-width: 1200px;
+}
+
+.menda-tabs {
+	display: flex;
+	gap: 4px;
+	margin: 0 0 12px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.menda-tab {
+	background: none;
+	border: 0;
+	border-bottom: 2px solid transparent;
+	padding: 8px 14px;
+	cursor: pointer;
+	color: #1d2327;
+}
+
+.menda-tab.is-active {
+	border-bottom-color: #2271b1;
+	font-weight: 600;
+}
+
+.menda-label-skin {
+	display: none;
+}
+
+.menda-img-preview img {
+	max-width: 200px;
+	max-height: 100px;
+	display: block;
+	margin-top: 6px;
+}
+
+.menda-skin-mock {
+	width: 100%;
+	height: 100%;
+	min-height: 280px;
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.menda-skin-mock__billboard {
+	display: flex;
+	justify-content: center;
+	background: rgba(0,0,0,.06);
+	padding: 6px;
+}
+
+.menda-skin-mock__billboard img {
+	max-height: 64px;
+	width: auto;
+}
+
+.menda-skin-mock__fullhead {
+	background: #1d2327;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: .04em;
+	text-align: center;
+	padding: 10px 8px;
+	width: 100%;
+}
+
+.menda-skin-mock__row {
+	display: flex;
+	flex: 1;
+	min-height: 0;
+}
+
+.menda-skin-mock__rail {
+	width: 14%;
+	background: rgba(0,0,0,.08);
+	overflow: hidden;
+}
+
+.menda-skin-mock__rail img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.menda-skin-mock__page {
+	flex: 1;
+	background: #fff;
+	margin: 12px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #646970;
+	font-size: 13px;
+}
+
+.menda-skin-mock--overlay {
+	position: relative;
+	background: #fff;
+}
+
+.menda-skin-mock__page--full {
+	margin: 0;
+	min-height: 280px;
+	background: repeating-linear-gradient(#f6f7f7, #f6f7f7 14px, #fff 14px, #fff 28px);
+}
+
+.menda-skin-mock--overlay .menda-skin-mock__rail {
+	position: absolute;
+	top: 18%;
+	bottom: auto;
+	height: 64%;
+	width: 10%;
+	z-index: 2;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+}
+
+.menda-skin-mock__rail--overlay-left { left: 0; }
+.menda-skin-mock__rail--overlay-right { right: 0; }
+
+.menda-skin-mock--mobile {
+	position: relative;
+	background: #fff;
+	min-height: 100%;
+}
+
+.menda-skin-mock__article {
+	height: 70%;
+	background: repeating-linear-gradient(#f6f7f7, #f6f7f7 12px, #fff 12px, #fff 22px);
+	margin: 16px;
+}
+
+.menda-skin-mock__dock {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid #dcdcde;
+	padding: 8px;
+}
+
+.menda-skin-mock__dock img {
+	max-height: 50px;
+	width: auto;
+}
+
+.menda-skin-mock--empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	color: #646970;
+}
+
+.menda-cat-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 6px 12px;
+	max-height: 220px;
+	overflow: auto;
+	padding: 10px;
+	border: 1px solid #dcdcde;
+	background: #fff;
+}
+
+.menda-admin-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 1.6rem;
+	margin-bottom: 24px;
+}
+
+/* KPI Grid */
+.menda-kpi-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 16px;
+	margin-bottom: 28px;
+}
+
+.menda-kpi-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 20px 16px;
+	text-align: center;
+	box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+
+.menda-kpi-icon {
+	font-size: 2rem;
+	margin-bottom: 8px;
+}
+
+.menda-kpi-value {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #1d2327;
+	line-height: 1;
+}
+
+.menda-kpi-label {
+	font-size: .8rem;
+	color: #646970;
+	margin-top: 6px;
+}
+
+/* Status grid */
+.menda-status-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 16px;
+	margin-bottom: 28px;
+}
+
+.menda-status-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+
+.menda-status-card h3 {
+	margin: 0 0 10px;
+	font-size: .95rem;
+}
+
+.menda-status-card a {
+	display: inline-block;
+	margin-top: 8px;
+	font-size: .85rem;
+}
+
+/* Badge */
+.menda-badge {
+	display: inline-block;
+	padding: 3px 10px;
+	border-radius: 20px;
+	font-size: .8rem;
+	font-weight: 600;
+}
+
+.menda-badge--active   { background: #d4edda; color: #155724; }
+.menda-badge--inactive { background: #f8d7da; color: #721c24; }
+
+/* CTR colours */
+.menda-ctr         { font-weight: 600; }
+.menda-ctr--good   { color: #155724; }
+.menda-ctr--avg    { color: #856404; }
+.menda-ctr--low    { color: #721c24; }
+
+/* Card */
+.menda-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 24px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+
+.menda-card h2 {
+	margin-top: 0;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.menda-empty {
+	text-align: center;
+	padding: 40px;
+	color: #646970;
+}
+
+/* Table */
+.menda-table th,
+.menda-table td {
+	vertical-align: middle;
+	padding: 10px 12px;
+}
+
+/* Quick links */
+.menda-quick-links {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+}
+
+/* Custom date range and CSV Export layouts */
+.menda-filter-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 16px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 16px 20px;
+	margin-bottom: 24px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+
+.menda-filter-fields {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.menda-filter-fields label {
+	font-weight: 600;
+	color: #1d2327;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.menda-filter-fields input[type="date"],
+.menda-filter-fields select {
+	padding: 6px 10px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	background: #fff;
+	color: #2c3338;
+}
+
+.menda-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 6px 12px;
+	border-radius: 4px;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #2271b1;
+	background: #2271b1;
+	color: #fff;
+	transition: background-color 0.1s ease;
+}
+
+.menda-btn:hover {
+	background: #135e96;
+	border-color: #135e96;
+	color: #fff;
+}
+
+.menda-btn--secondary {
+	background: #f6f7f7;
+	border-color: #dcdcde;
+	color: #2271b1;
+}
+
+.menda-btn--secondary:hover {
+	background: #f0f0f1;
+	border-color: #c3c4c7;
+	color: #135e96;
+}
+
+/* SVG Chart styles */
+.menda-chart-card {
+	padding: 24px;
+	position: relative;
+}
+
+.menda-chart-svg {
+	width: 100%;
+	height: auto;
+	max-height: 320px;
+	display: block;
+}
+
+.menda-chart-views-line {
+	fill: none;
+	stroke: #2271b1;
+	stroke-width: 3.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.menda-chart-clicks-line {
+	fill: none;
+	stroke: #10b981;
+	stroke-width: 3.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.menda-chart-views-area {
+	fill: url(#menda-views-gradient);
+	opacity: 0.08;
+}
+
+.menda-chart-clicks-area {
+	fill: url(#menda-clicks-gradient);
+	opacity: 0.08;
+}
+
+.menda-chart-point {
+	fill: #fff;
+	stroke-width: 3;
+	cursor: pointer;
+	transition: r 0.2s ease, stroke-width 0.2s ease;
+}
+
+.menda-chart-point--views {
+	stroke: #2271b1;
+}
+
+.menda-chart-point--clicks {
+	stroke: #10b981;
+}
+
+.menda-chart-point:hover {
+	r: 7;
+	stroke-width: 4;
+}
+
+.menda-chart-grid-line {
+	stroke: #e0e0e0;
+	stroke-width: 1;
+	stroke-dasharray: 4,4;
+}
+
+.menda-chart-label {
+	font-size: 11px;
+	fill: #646970;
+	text-anchor: middle;
+	font-family: inherit;
+}
+
+.menda-chart-label--y {
+	text-anchor: end;
+}
+
+.menda-chart-tooltip {
+	position: absolute;
+	background: #1e293b;
+	color: #fff;
+	padding: 8px 12px;
+	border-radius: 6px;
+	font-size: 12px;
+	font-weight: 500;
+	pointer-events: none;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+	z-index: 100;
+	display: none;
+	line-height: 1.4;
+}
+
+.menda-chart-legend {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.menda-chart-legend-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.menda-chart-legend-color {
+	width: 12px;
+	height: 12px;
+	border-radius: 3px;
+}
+
+.menda-chart-legend-color--views {
+	background: #2271b1;
+}
+
+.menda-chart-legend-color--clicks {
+	background: #10b981;
+}
+
+/* Settings sections */
+.menda-settings-section {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 20px 24px;
+	margin-bottom: 24px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+
+.menda-settings-section h2 {
+	margin-top: 0;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #f0f0f0;
+	font-size: 1.1rem;
+}
+
+/* Meta table */
+.menda-meta-table th {
+	width: 220px;
+	vertical-align: top;
+	padding-top: 12px;
+}
+
+/* Live Preview Modal Overlay */
+.menda-preview-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 100000;
+	background: rgba(15, 23, 42, 0.75);
+	backdrop-filter: blur(4px);
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Modal Window */
+.menda-preview-window {
+	background: #f8fafc;
+	border-radius: 12px;
+	width: 90%;
+	max-width: 950px;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	margin: 5vh auto;
+}
+
+/* Header */
+.menda-preview-header {
+	background: #ffffff;
+	padding: 14px 24px;
+	border-bottom: 1px solid #e2e8f0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menda-preview-header h3 {
+	margin: 0;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #0f172a;
+}
+
+.menda-preview-tabs {
+	display: inline-flex;
+	background: #f1f5f9;
+	padding: 4px;
+	border-radius: 8px;
+	gap: 4px;
+}
+
+.menda-preview-tab {
+	background: none;
+	border: none;
+	padding: 6px 16px;
+	border-radius: 6px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #64748b;
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.menda-preview-tab.active {
+	background: #ffffff;
+	color: #0f172a;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.menda-preview-close {
+	background: none;
+	border: none;
+	font-size: 18px;
+	color: #94a3b8;
+	cursor: pointer;
+	padding: 4px 8px;
+	transition: color 0.15s ease;
+}
+
+.menda-preview-close:hover {
+	color: #0f172a;
+}
+
+/* Preview Body */
+.menda-preview-body {
+	flex: 1;
+	padding: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+/* Virtual Device Screen */
+.menda-preview-screen {
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 6px solid #1e293b;
+}
+
+/* Desktop View scaling */
+.desktop-view .menda-preview-screen {
+	width: 100%;
+	height: 100%;
+}
+
+/* Mobile View simulated resolution */
+.mobile-view .menda-preview-screen {
+	width: 375px;
+	height: 667px;
+	border-radius: 32px;
+	border-width: 12px 10px;
+}
+
+.menda-preview-frame-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	background: #f1f5f9;
+}
+
+/* Type Specific Rules */
+.type-interstitial .menda-preview-frame-container {
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.type-sticky_video .menda-preview-screen {
+	border-radius: 4px;
+}
+
+.type-sticky_video .menda-preview-frame-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding: 16px;
+}
+
+.type-sticky_video .menda-preview-frame-container video,
+.type-sticky_video .menda-preview-frame-container iframe {
+	width: 280px;
+	height: 157px;
+	border-radius: 4px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.mobile-view.type-sticky_video .menda-preview-frame-container video,
+.mobile-view.type-sticky_video .menda-preview-frame-container iframe {
+	width: 180px;
+	height: 101px;
+}
+
+.type-skin .menda-preview-frame-container {
+	background: #f1f5f9;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+/* CSS Grid Calendar Schedule View */
+.menda-calendar-card {
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 24px;
+	margin-top: 24px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.menda-calendar-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.menda-calendar-header h2 {
+	margin: 0;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #0f172a;
+}
+
+.menda-cal-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 8px;
+	border-top: 1px solid #e2e8f0;
+	padding-top: 12px;
+}
+
+.menda-cal-header-day {
+	font-weight: 700;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #64748b;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+.menda-cal-day {
+	background: #f8fafc;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	min-height: 90px;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	transition: background-color 0.15s ease;
+}
+
+.menda-cal-day:hover {
+	background: #f1f5f9;
+}
+
+.menda-cal-day--empty {
+	background: none;
+	border-color: transparent;
+	pointer-events: none;
+}
+
+.menda-cal-day-num {
+	font-size: 12px;
+	font-weight: 600;
+	color: #64748b;
+	align-self: flex-end;
+	margin-bottom: 6px;
+}
+
+.menda-cal-day-ads {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	flex: 1;
+	overflow: hidden;
+}
+
+.menda-cal-ad-pill {
+	font-size: 10px;
+	font-weight: 600;
+	padding: 2px 6px;
+	border-radius: 4px;
+	color: #fff;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: default;
+}
+
+.menda-cal-ad-pill.type-banner {
+	background: #3b82f6;
+}
+
+.menda-cal-ad-pill.type-interstitial {
+	background: #f97316;
+}
+
+.menda-cal-ad-pill.type-sticky_video {
+	background: #10b981;
+}
+
+.menda-cal-ad-pill.type-skin {
+	background: #8b5cf6;
+}

@@ -1,0 +1,351 @@
+# Copyright (C) 2025 Masa Tech
+# This file is distributed under the same license as the Menda Ads Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Menda Ads Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://masatech.io\n"
+"POT-Creation-Date: 2025-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI 2.x\n"
+"X-Domain: menda-ads\n"
+
+#: includes/class-post-types.php
+msgid "Ads"
+msgstr ""
+
+msgid "Ad"
+msgstr ""
+
+msgid "Add New Ad"
+msgstr ""
+
+msgid "Edit Ad"
+msgstr ""
+
+msgid "Search Ads"
+msgstr ""
+
+msgid "No ads found."
+msgstr ""
+
+msgid "Sponsored Articles"
+msgstr ""
+
+msgid "Sponsored Article"
+msgstr ""
+
+msgid "Add Sponsored Article"
+msgstr ""
+
+msgid "Edit Sponsored Article"
+msgstr ""
+
+msgid "Placements"
+msgstr ""
+
+msgid "Placement"
+msgstr ""
+
+msgid "Add Placement"
+msgstr ""
+
+msgid "Ad Settings"
+msgstr ""
+
+msgid "Ad Type"
+msgstr ""
+
+msgid "Banner"
+msgstr ""
+
+msgid "Interstitial (Between Pages)"
+msgstr ""
+
+msgid "Sticky Video"
+msgstr ""
+
+msgid "Website Skin / Takeover"
+msgstr ""
+
+msgid "Destination URL"
+msgstr ""
+
+msgid "Ad Image"
+msgstr ""
+
+msgid "Upload / Select Image"
+msgstr ""
+
+msgid "Video URL (MP4 or YouTube embed)"
+msgstr ""
+
+msgid "Custom HTML / Embed Code"
+msgstr ""
+
+msgid "Optional. Overrides the image if set."
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Start:"
+msgstr ""
+
+msgid "End:"
+msgstr ""
+
+msgid "Leave blank to run indefinitely."
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Desktop"
+msgstr ""
+
+msgid "Mobile"
+msgstr ""
+
+msgid "Sponsor Info"
+msgstr ""
+
+msgid "Sponsor Name"
+msgstr ""
+
+msgid "Sponsor URL"
+msgstr ""
+
+msgid "Sponsor Logo"
+msgstr ""
+
+msgid "Upload Logo"
+msgstr ""
+
+msgid "Sponsored"
+msgstr ""
+
+msgid "Advertisement"
+msgstr ""
+
+msgid "Skip in"
+msgstr ""
+
+msgid "Skip Ad ✕"
+msgstr ""
+
+msgid "Video Advertisement"
+msgstr ""
+
+msgid "Close video ad"
+msgstr ""
+
+msgid "Ad"
+msgstr ""
+
+msgid "Learn More"
+msgstr ""
+
+#: includes/class-analytics.php
+msgid "[%s] Weekly Ads Report"
+msgstr ""
+
+msgid "Weekly Ad Performance Report"
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+msgid "Clicks"
+msgstr ""
+
+msgid "CTR"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Menda Ads"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "All Ads"
+msgstr ""
+
+msgid "Add New Ad"
+msgstr ""
+
+msgid "Sponsored Articles"
+msgstr ""
+
+msgid "Analytics"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+#: admin/views/dashboard.php
+msgid "Menda Ads Manager"
+msgstr ""
+
+msgid "Total Views (30d)"
+msgstr ""
+
+msgid "Total Clicks (30d)"
+msgstr ""
+
+msgid "Average CTR"
+msgstr ""
+
+msgid "Active Ads"
+msgstr ""
+
+msgid "Interstitial Ads"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+msgid "Sticky Video"
+msgstr ""
+
+msgid "Website Skin"
+msgstr ""
+
+msgid "Top Performing Ads (Last 30 Days)"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "No ad data yet. Create your first ad to get started!"
+msgstr ""
+
+msgid "+ Add New Ad"
+msgstr ""
+
+msgid "+ New Ad"
+msgstr ""
+
+msgid "+ Sponsored Article"
+msgstr ""
+
+msgid "Full Analytics"
+msgstr ""
+
+#: admin/views/analytics.php
+msgid "Ad Analytics"
+msgstr ""
+
+msgid "Period:"
+msgstr ""
+
+msgid "Last %d days"
+msgstr ""
+
+msgid "No analytics data for the selected period."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Totals"
+msgstr ""
+
+#: admin/views/settings.php
+msgid "Menda Ads Settings"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Show interstitial ads between pages"
+msgstr ""
+
+msgid "Skip Delay (seconds)"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Once per session"
+msgstr ""
+
+msgid "Once per day"
+msgstr ""
+
+msgid "Every page load"
+msgstr ""
+
+msgid "Show sticky video ad on all pages"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Bottom Right"
+msgstr ""
+
+msgid "Bottom Left"
+msgstr ""
+
+msgid "Top Right"
+msgstr ""
+
+msgid "Top Left"
+msgstr ""
+
+msgid "Website Skin / Takeover"
+msgstr ""
+
+msgid "Activate website skin"
+msgstr ""
+
+msgid "Or create an Ad of type \"Skin\" with a schedule for automatic activation."
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Background Image"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Click Destination URL"
+msgstr ""
+
+msgid "Content Area Width (px)"
+msgstr ""
+
+msgid "Weekly Reports"
+msgstr ""
+
+msgid "Send weekly performance report every Monday"
+msgstr ""
+
+msgid "Report Email"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
