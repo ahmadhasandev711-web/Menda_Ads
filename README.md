@@ -143,7 +143,9 @@ spl_autoload_register( function ( string $class ): void {
 ## 👨‍💻 Developer Information
 
 Developed and maintained by **Ahmad Hasan**  
-* GitHub: [@ahmadhasandev711-web](https://github.com/ahmadhasandev711-web)
+* **Portfolio:** [ahmad-hasan.vercel.app](https://ahmad-hasan.vercel.app/)  
+* **GitHub:** [@ahmadhasandev711-web](https://github.com/ahmadhasandev711-web)  
+* **Email:** [ahmadhasandev711@gmail.com](mailto:ahmadhasandev711@gmail.com)
 
 ## 📄 License
 

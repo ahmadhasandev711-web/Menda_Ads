@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       Menda Ads Manager
- * Plugin URI:        https://masatech.io
+ * Plugin URI:        https://github.com/ahmadhasandev711-web/Menda_Ads
  * Description:       Complete ad management system: banners, interstitial, sticky video, website skin, sponsored articles, and analytics dashboard.
  * Version:           1.3.4
  * Requires at least: 6.0
  * Requires PHP:      8.0
- * Author:            Masa Tech
- * Author URI:        https://masatech.io
+ * Author:            Ahmad Hasan
+ * Author URI:        https://ahmad-hasan.vercel.app/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       menda-ads

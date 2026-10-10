@@ -1,12 +1,12 @@
 # Arabic translation for Menda Ads Manager
-# Copyright (C) 2025 Masa Tech
+# Copyright (C) 2026 Ahmad Hasan
 # This file is distributed under the same license as the Menda Ads Manager plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Menda Ads Manager 1.0.0\n"
+"Project-Id-Version: Menda Ads Manager 1.3.4\n"
 "POT-Creation-Date: 2025-01-01 00:00:00+00:00\n"
-"PO-Revision-Date: 2025-01-01 00:00:00+00:00\n"
-"Last-Translator: Masa Tech <info@masatech.io>\n"
+"PO-Revision-Date: 2026-10-11 00:00:00+00:00\n"
+"Last-Translator: Ahmad Hasan <ahmadhasandev711@gmail.com>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"

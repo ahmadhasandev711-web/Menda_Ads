@@ -1,10 +1,10 @@
 === Menda Ads Manager ===
-Contributors: masatech
+Contributors: ahmadhasandev711-web
 Tags: ads, advertising, ad manager, interstitial, sponsored posts, analytics
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 8.0
-Stable tag: 1.1.5
+Stable tag: 1.3.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
